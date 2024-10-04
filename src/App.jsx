@@ -12,16 +12,9 @@ function App() {
   ];
   return (
     <>
-      <h1>Hello {userName}</h1>
-      <img src={avatar} alt="Abdullah Baig" className="photo" />
-      <ul>
-        {student.map((data) => (
-          <li key={data.key}>{data.name}</li>
-        ))}
-      </ul>
-
-      <br />
-      <button> {loggedIn ? "Logout" : "Login"} </button>
+      <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
     </>
   );
 }
